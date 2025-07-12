@@ -151,5 +151,10 @@ int main()
     if(roll(10) == 1){
         cout << "TECH: " + tech << endl;
     }
+
+    string t;
+    cout << endl;
+    cout << "Continue?\n> ";
+    cin >> t;
     
 }
